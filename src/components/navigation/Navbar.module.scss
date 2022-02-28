@@ -1,0 +1,21 @@
+.topbar {
+  background-color: var(--primary-color);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.verticalNav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100px;
+}
+
+.link {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
